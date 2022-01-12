@@ -1,5 +1,5 @@
-// var path = require('path');
-// var htmlWebpackPlugin = require("html-webpack-plugin");
+var path = require('path');
+var htmlWebpackPlugin = require("html-webpack-plugin");
 import path from "path";
 import htmlWebpackPlugin from "html-webpack-plugin";
 
@@ -23,4 +23,3 @@ rules: [  {
 },], },
 };
 
-export default config;
