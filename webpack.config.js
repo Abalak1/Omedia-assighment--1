@@ -1,7 +1,7 @@
-var path = require('path');
-var htmlWebpackPlugin = require("html-webpack-plugin");
-import path from "path";
-import htmlWebpackPlugin from "html-webpack-plugin";
+let path = require('path');
+let htmlWebpackPlugin = require("html-webpack-plugin");
+// import path from "path";
+// import htmlWebpackPlugin from "html-webpack-plugin";
 
 module.exports = {
   entry: path.resolve(__dirname, 'src', 'index.js'), 

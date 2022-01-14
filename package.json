@@ -2,13 +2,13 @@
   "name": "js-dev-env",
   "version": "1.0.0",
   "description": "JS Development Enviroment",
-  "type": "module",
   "scripts": {
-    "start": "node scripts/server.js",
+    "start": "babel-node scripts/server.js",
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel start localtunnel",
     "build": "webpack --config webpack.config.js",
-    "format:all": "prettier --write \"src/**/*.js\""
+    "format:all": "prettier --write \"src/**/*.js\"",
+    "lint": "eslint src"
   },
   "author": "T",
   "license": "ISC",
@@ -29,6 +29,7 @@
     "@babel/preset-env": "^7.16.8",
     "date-fns": "^2.28.0",
     "localtunnel": "^2.0.2",
-    "open": "^8.4.0"
+    "open": "^8.4.0",
+    "prettier": "^2.5.1"
   }
 }

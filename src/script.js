@@ -1,1 +1,1 @@
-console.log(" from script")
+console.log(" from script");
